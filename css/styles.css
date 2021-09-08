@@ -1,0 +1,120 @@
+body {
+	background-color: hsl(185, 75%, 39%);
+	background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+	background-position: top left, right bottom;
+	font-family: 'Kumbh Sans';
+}
+.container {
+	margin: auto;
+	padding: auto;
+	width: 350px;
+	height: 340px;
+	background-color: white;
+	border-radius: 12px;
+	border-color: transparent;
+	margin-top: 275px;
+}
+img {
+	border-radius: 50%;
+	border: 2px solid white;
+	margin-top: 20%;
+}
+.crest {
+	background-image: url(/images/bg-pattern-card.svg);
+	background-size: cover;
+	text-align: center;
+	box-sizing: border-box;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	height: 40%;
+}
+.name-location {
+	text-align: center;
+	padding-top: 10px;
+	height: 50px;
+}
+.vic-header {
+	display: inline;
+}
+span {
+	display: inline;
+	color: hsl(227, 10%, 46%);
+	font-size: 14px;
+}
+#two-six {
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 3px;
+}
+#london {
+	margin-top: 5px;
+	display: inline-block;
+	font-weight: 400;
+}
+hr {
+	margin-top: 16px;
+	height: 1px;
+	border: 0;
+	background-color: hsl(227, 10%, 46%);
+	width: auto;
+	color: hsl(227, 10%, 46%);
+}
+.stats {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 40%;
+}
+.stats h4 {
+	padding-top: 10px;
+	margin-bottom: 2px;
+}
+h4 {
+	color: hsl(229, 23%, 23%);
+	font-size: 18px;
+	font-weight: 700;
+}
+.stat-span {
+	font-size: 12px;
+	font-weight: 400;
+}
+footer {
+	text-align: center;
+	font-size: 11px;
+}
+footer a {
+	color: hsl(228, 45%, 44%);
+}
+/* iphone x/xs/ ios12 portrait */
+@media only screen and (min-width: 360px) {
+	.container {
+		width: 325px;
+		margin-top: 250px;
+	}
+}
+/* iphone 6/7/8 portrait */
+@media only screen and (min-width: 375px) and (max-height: 667px) {
+	.container {
+		margin-top: 150px;
+	}
+}
+/* iphone 6/7/8 landscape */
+@media only screen and (min-width: 667px) and (max-height: 375px) {
+	.container {
+		margin-top: 12px;
+	}
+}
+/* iphone 6/7/8 PLUS lanscape */
+@media only screen and (min-width: 736px) and (max-height: 414px) {
+	.container {
+		margin-top: 30px;
+	}
+}
+/* iphone x/xs/ ios12 landscape*/
+@media only screen and (min-width: 812px) and (max-height: 375px) {
+	.container {
+		margin-top: 10px;
+	}
+}
