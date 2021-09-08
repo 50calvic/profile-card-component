@@ -1,6 +1,6 @@
 body {
 	background-color: hsl(185, 75%, 39%);
-	background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+	background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
 	background-position: top left, right bottom;
 	font-family: 'Kumbh Sans';
 }
@@ -20,7 +20,7 @@ img {
 	margin-top: 20%;
 }
 .crest {
-	background-image: url(/images/bg-pattern-card.svg);
+	background-image: url(./images/bg-pattern-card.svg);
 	background-size: cover;
 	text-align: center;
 	box-sizing: border-box;
